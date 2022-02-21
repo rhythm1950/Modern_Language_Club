@@ -341,11 +341,7 @@ a.text-button-icon:hover i {
   margin-bottom: 0px;
 }
 
-/* 
----------------------------------------------
-header
---------------------------------------------- 
-*/
+/* header */
 
 .background-header {
   background-color: #fff;
@@ -795,12 +791,8 @@ header
   }
 }
 
-/* 
----------------------------------------------
-banner
---------------------------------------------- 
-*/
-/* ==== Main CSS === */
+/* banner */
+/* Main CSS */
 .img-fill {
   width: 100%;
   display: block;
@@ -843,7 +835,7 @@ banner
   padding: 0;
 }
 
-/* ==== Slider Style === */
+/* Slider Style */
 .Modern-Slider .item .img-fill {
   height: 95vh;
   background: #000;
@@ -971,7 +963,7 @@ ul.slick-dots {
   background: #000;
 }
 
-/* ==== Slick Slider Css Ruls === */
+/* Slick Slider Css Ruls */
 .slick-slider {
   position: relative;
   display: block;
@@ -985,6 +977,7 @@ ul.slick-dots {
   touch-action: pan-y;
   -webkit-tap-highlight-color: transparent;
 }
+
 .slick-list {
   position: relative;
   display: block;
@@ -992,62 +985,69 @@ ul.slick-dots {
   margin: 0;
   padding: 0;
 }
+
 .slick-list:focus {
   outline: none;
 }
+
 .slick-list.dragging {
   cursor: hand;
 }
+
 .slick-slider .slick-track,
 .slick-slider .slick-list {
   -webkit-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
+
 .slick-track {
   position: relative;
   top: 0;
   left: 0;
   display: block;
 }
+
 .slick-track:before,
 .slick-track:after {
   display: table;
   content: "";
 }
+
 .slick-track:after {
   clear: both;
 }
+
 .slick-loading .slick-track {
   visibility: hidden;
 }
+
 .slick-slide {
   display: none;
   float: left /* If RTL Make This Right */;
   height: 100%;
   min-height: 1px;
 }
+
 .slick-slide.dragging img {
   pointer-events: none;
 }
+
 .slick-initialized .slick-slide {
   display: block;
 }
+
 .slick-loading .slick-slide {
   visibility: hidden;
 }
+
 .slick-vertical .slick-slide {
   display: block;
   height: auto;
   border: 1px solid transparent;
 }
 
-/*
----------------------------------------------
-about
----------------------------------------------
-*/
-
+/* about */
 #about {
   padding: 120px 0px 0px 0px;
   position: relative;
@@ -1101,12 +1101,7 @@ about
   color: #777;
 }
 
-/*
----------------------------------------------
-features
----------------------------------------------
-*/
-
+/* features */
 #features {
   padding-top: 80px;
   padding-bottom: 70px;
@@ -1136,12 +1131,7 @@ features
   margin-bottom: 15px;
 }
 
-/*
----------------------------------------------
-subscribe
----------------------------------------------
-*/
-
+/* subscribe */
 #subscribe {
   padding: 80px 0px;
   background-image: url(../images/slide-02.jpg);
@@ -1197,11 +1187,7 @@ subscribe
   }
 }
 
-/*
---------------------------------------------
-testimonials
---------------------------------------------
-*/
+/* testimonials */
 #testimonials {
   margin-top: 120px;
   padding: 80px 0px;
@@ -1211,6 +1197,7 @@ testimonials
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 #testimonials .section-heading {
   text-align: center;
   color: #fff;
@@ -1334,12 +1321,7 @@ testimonials
   margin-bottom: -1px;
 }
 
-/* 
----------------------------------------------
-contact
---------------------------------------------- 
-*/
-
+/* contact */
 #contact-us .section-heading {
   margin-bottom: 50px;
 }
@@ -1411,12 +1393,7 @@ contact
   color: #7a7a7a;
 }
 
-/* 
----------------------------------------------
-footer
---------------------------------------------- 
-*/
-
+/* footer */
 footer {
   padding: 80px 0px;
   background: rgb(51, 155, 158);
@@ -1483,11 +1460,7 @@ footer .right-text-content ul li a:hover {
   }
 }
 
-/* 
----------------------------------------------
-preloader
---------------------------------------------- 
-*/
+/* preloader */
 #preloader {
   overflow: hidden;
   background-image: linear-gradient(145deg, #339b9e 0%, #68cc98 100%);
@@ -1567,12 +1540,7 @@ preloader
   }
 }
 
-/* 
----------------------------------------------
-search
---------------------------------------------- 
-*/
-
+/* search */
 #search {
   z-index: 9999;
   position: fixed;
@@ -1593,6 +1561,7 @@ search
   transform: translate(0px, -100%) scale(0, 0);
   opacity: 0;
 }
+
 #search input {
   position: absolute;
   top: 50%;
@@ -1609,6 +1578,7 @@ search
   padding-right: 30px;
   outline: none;
 }
+
 #search .main-button {
   color: #fff;
   position: absolute;
@@ -1626,6 +1596,7 @@ search
   background-color: rgb(212, 1, 1);
   border: black;
 }
+
 #search .close {
   border-radius: 50%;
   position: fixed;
@@ -1642,6 +1613,7 @@ search
   line-height: 60px;
   font-size: 28px;
 }
+
 #search.open {
   -webkit-transform: translate(0px, 0px) scale(1, 1);
   -moz-transform: translate(0px, 0px) scale(1, 1);
@@ -1651,18 +1623,15 @@ search
   opacity: 1;
 }
 
-/* 
----------------------------------------------
-portfolio
---------------------------------------------- 
-*/
-
+/* portfolio */
 #projects .filters {
   margin-top: 50px;
 }
+
 #projects .filters ul {
   padding: 0;
 }
+
 #projects .filters ul li {
   list-style: none;
   display: block;
@@ -1679,18 +1648,22 @@ portfolio
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
 #projects .filters ul li.active,
 #projects .filters ul li:hover {
   color: rgb(212, 1, 1);
 }
+
 #projects .filters-content {
   margin-top: 50px;
 }
+
 #projects .filters-content .show {
   opacity: 1;
   visibility: visible;
   transition: all 350ms;
 }
+
 #projects .filters-content .hide {
   opacity: 0;
   visibility: hidden;
@@ -1710,19 +1683,24 @@ portfolio
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
 #projects .filters-content .item:hover {
   opacity: 0.75;
 }
+
 #projects .filters-content .item .p-inner {
   padding: 20px 30px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
+
 #projects .filters-content .item .p-inner h5 {
   font-size: 15px;
 }
+
 #projects .filters-content .item .p-inner .cat {
   font-size: 13px;
 }
+
 #projects .filters-content .item img {
   width: 100%;
 }
