@@ -1113,8 +1113,7 @@ ul.slick-dots {
 #testimonials {
   margin-top: 120px;
   padding: 80px 0px;
-  padding: 120px 0px;
-  background-color: rgb(235, 235, 235);
+  background: rgba(241, 241, 241, 0.315);
 }
 
 #testimonials .section-heading {
@@ -1138,7 +1137,7 @@ ul.slick-dots {
 }
 
 #testimonials .item span {
-  color: #fff;
+  color: black;
   font-weight: 500;
   font-size: 13px;
   text-transform: uppercase;
@@ -1274,6 +1273,10 @@ ul.slick-dots {
 
 #contact {
   margin-top: 40px;
+}
+
+.contact-form {
+  margin-top: -50px;
 }
 
 .contact-form input,
@@ -1477,7 +1480,11 @@ ul.slick-dots {
   opacity: 1;
 }
 
-/* portfolio */
+/* Projects */
+
+#projects .projects-content {
+  margin-top: -50px;
+}
 #projects .filters {
   margin-top: 50px;
 }
