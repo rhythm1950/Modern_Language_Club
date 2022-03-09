@@ -1594,3 +1594,17 @@ ul.slick-dots {
     margin-bottom: 0px;
   }
 }
+
+/* Footer */
+.footer {
+  background: rgb(0, 0, 0);
+  color: white !important;
+}
+
+.footer nav li {
+  text-align: left;
+}
+
+.sub-footer {
+  background: rgb(41, 41, 41);
+}
