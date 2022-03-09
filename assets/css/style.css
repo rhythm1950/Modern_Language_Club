@@ -232,6 +232,10 @@ a.main-button-icon {
   transition: all 0.3s ease 0s;
 }
 
+a.main-button-icon:hover {
+  color: white;
+}
+
 a.main-button-icon i {
   margin-left: 5px;
   -webkit-transition: all 0.3s ease-in-out 0s;
@@ -330,7 +334,9 @@ a.text-button-icon:hover i {
   text-transform: uppercase;
   letter-spacing: 0.25px;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: black;
 }
 
 .section-heading h2 {
@@ -338,15 +344,15 @@ a.text-button-icon:hover i {
   font-weight: 800;
   letter-spacing: 1px;
   margin-top: 20px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: black;
 }
 
 /* header */
-
 .background-header {
   background-color: #fff;
   height: 80px !important;
-  position: fixed !important;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -663,18 +669,6 @@ a.text-button-icon:hover i {
   background-color: #1e1e1e;
 }
 
-.header-area.header-sticky {
-  min-height: 80px;
-}
-
-.header-area.header-sticky .nav {
-  margin-top: 20px !important;
-}
-
-.header-area.header-sticky .nav li a.active {
-  color: rgb(212, 1, 1);
-}
-
 @media (max-width: 1200px) {
   .header-area .main-nav .nav li {
     padding-left: 12px;
@@ -688,14 +682,6 @@ a.text-button-icon:hover i {
 @media (max-width: 767px) {
   .header-area .main-nav .logo {
     color: #1e1e1e;
-  }
-  .header-area.header-sticky .nav li a:hover,
-  .header-area.header-sticky .nav li a.active {
-    color: rgb(212, 1, 1) !important;
-    opacity: 1;
-  }
-  .header-area.header-sticky .nav li.search-icon a {
-    width: 100%;
   }
   .header-area {
     background-color: #f7f7f7;
@@ -728,9 +714,6 @@ a.text-button-icon:hover i {
   }
   .header-area .main-nav .nav li:first-child {
     border-top: 1px solid #eee;
-  }
-  .header-area.header-sticky .nav {
-    margin-top: 80px !important;
   }
   .header-area .main-nav .nav li {
     width: 100%;
@@ -1047,58 +1030,18 @@ ul.slick-dots {
   border: 1px solid transparent;
 }
 
-/* about */
-#about {
-  padding: 120px 0px 0px 0px;
-  position: relative;
-  z-index: 9;
+/* About */
+.about {
+  background: rgba(241, 241, 241, 0.315);
 }
 
-#about .container {
-  border-bottom: 5px solid #f7f7f7;
-  padding-bottom: 80px;
+.about .item {
+  background: white;
+  box-shadow: 10px 10px 40px rgba(43, 43, 43, 0.13);
 }
 
-#about .section-heading {
-  margin-bottom: 10px;
-}
-
-#about .section-heading h6 {
-  color: rgb(212, 1, 1);
-}
-
-#about .service-item {
-  margin-top: 30px;
-}
-
-#about .service-item img {
-  float: left;
-  margin-right: 15px;
-  width: 46px;
-  height: 46px;
-}
-
-#about .service-item h4 {
-  font-size: 15px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.25px;
-  line-height: 46px;
-}
-
-#about a.main-button-icon {
-  display: inline-block;
-  margin-top: 60px;
-}
-
-#about .right-text-content {
-  margin-top: 40px;
-}
-
-#about .right-text-content p {
-  font-size: 16px;
-  line-height: 27px;
-  color: #777;
+.about a.main-button-icon {
+  text-align: center;
 }
 
 /* subscribe */
@@ -1113,8 +1056,17 @@ ul.slick-dots {
 
 #subscribe .section-heading {
   text-align: center;
-  color: #fff;
   margin-bottom: 25px;
+}
+
+#subscribe .section-heading h2{
+  color: #fff !important;
+  margin-top: 10px !important;
+}
+
+#subscribe .section-heading h6{
+  color: #fff !important;
+  margin-bottom: 0px !important;
 }
 
 #subscribe p {
@@ -1122,7 +1074,6 @@ ul.slick-dots {
   font-size: 16px;
   line-height: 27px;
   color: #fff;
-  margin-bottom: 40px;
 }
 
 #subscribe input {
@@ -1168,7 +1119,6 @@ ul.slick-dots {
 
 #testimonials .section-heading {
   text-align: center;
-  color: #fff;
   margin-bottom: 60px;
 }
 
@@ -1181,7 +1131,7 @@ ul.slick-dots {
   font-size: 17px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #fff;
+  /* color: black; */
   letter-spacing: 1px;
   margin-top: 22px;
   margin-bottom: 7px;
@@ -1289,8 +1239,6 @@ ul.slick-dots {
   margin-bottom: -1px;
 }
 
-/* Blog section */
-
 /* contact */
 #contact-us .section-heading {
   margin-bottom: 50px;
@@ -1298,6 +1246,12 @@ ul.slick-dots {
 
 #contact-us .section-heading h6 {
   color: rgb(212, 1, 1);
+  text-align: left !important;
+  margin-bottom: 0px;
+}
+
+#contact-us .section-heading h2 {
+  text-align: left !important;
 }
 
 #contact-us .left-text-content ul li {
@@ -1540,7 +1494,7 @@ ul.slick-dots {
   position: relative;
   font-size: 13px;
   font-weight: 700;
-  color: #9a9a9a;
+  color: #000000;
   text-transform: uppercase;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -1615,6 +1569,12 @@ ul.slick-dots {
 
 #projects .section-heading h6 {
   color: rgb(212, 1, 1);
+  text-align: left !important;
+  margin-bottom: 0px;
+}
+
+#projects .section-heading h2 {
+  text-align: left !important;
 }
 
 @media (max-width: 992px) {
