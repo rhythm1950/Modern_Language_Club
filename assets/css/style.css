@@ -1109,24 +1109,28 @@ ul.slick-dots {
   }
 }
 
+/* Blog */
+.blog-item {
+  border-bottom: 2px solid rgb(212, 1, 1);
+}
 /* Team */
-#testimonials {
+#team {
   margin-top: 120px;
   padding: 80px 0px;
   background: rgba(241, 241, 241, 0.315);
 }
 
-#testimonials .section-heading {
+#team .section-heading {
   text-align: center;
   margin-bottom: 60px;
 }
 
-#testimonials .item {
+#team .item {
   position: relative;
   text-align: center;
 }
 
-#testimonials .item h4 {
+#team .item h4 {
   font-size: 17px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1136,7 +1140,7 @@ ul.slick-dots {
   margin-bottom: 7px;
 }
 
-#testimonials .item span {
+#team .item span {
   color: black;
   font-weight: 500;
   font-size: 13px;
@@ -1144,11 +1148,11 @@ ul.slick-dots {
   letter-spacing: 0.5px;
 }
 
-#testimonials .item .member-thumb {
+#team .item .member-thumb {
   position: relative;
 }
 
-#testimonials .item .hover-effect {
+#team .item .hover-effect {
   cursor: pointer;
   position: absolute;
   top: 0;
@@ -1163,7 +1167,7 @@ ul.slick-dots {
   transition: all 0.5s ease 0s;
 }
 
-#testimonials .item .hover-content {
+#team .item .hover-content {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1171,17 +1175,17 @@ ul.slick-dots {
   width: 100%;
 }
 
-#testimonials .item:hover .hover-effect {
+#team .item:hover .hover-effect {
   opacity: 1;
   visibility: visible;
 }
 
-#testimonials .item .hover-effect ul li {
+#team .item .hover-effect ul li {
   display: inline-block;
   margin: 0px 5px;
 }
 
-#testimonials .item .hover-effect ul li a {
+#team .item .hover-effect ul li a {
   width: 32px;
   height: 32px;
   display: inline-block;
@@ -1197,12 +1201,12 @@ ul.slick-dots {
   transition: all 0.3s ease 0s;
 }
 
-#testimonials .item .hover-effect ul li a:hover {
+#team .item .hover-effect ul li a:hover {
   color: #fff;
   background-color: rgb(212, 1, 1);
 }
 
-#testimonials .owl-carousel {
+#team .owl-carousel {
   padding-bottom: 60px;
 }
 
