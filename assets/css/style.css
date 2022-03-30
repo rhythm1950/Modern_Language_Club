@@ -1554,7 +1554,6 @@ ul.slick-dots {
 }
 
 #projects .filters-content .item .p-inner {
-  padding: 20px 30px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -1567,7 +1566,7 @@ ul.slick-dots {
 }
 
 #projects .filters-content .item img {
-  width: 100%;
+  width: 70%;
 }
 
 #projects {
